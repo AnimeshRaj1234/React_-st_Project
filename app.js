@@ -1,0 +1,2 @@
+// getElementById : textContent, innertext, innerhtml
+//

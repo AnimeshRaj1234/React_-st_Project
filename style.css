@@ -1,0 +1,80 @@
+/* Basic Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Container for Centering Content */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header Styling */
+#main-header {
+    background-color: #2E8B57; /* A nice shade of green */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.header-title {
+    margin: 0;
+    font-size: 24px;
+}
+
+/* Main Content Box Styling */
+#main-content {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.title {
+    font-size: 20px;
+    margin-top: 0;
+}
+
+/* Form Styling */
+.add-item-form {
+    display: flex; /* Aligns input and button side-by-side */
+    margin-bottom: 20px;
+}
+
+.form-input {
+    flex: 1; /* Allows the input field to take up available space */
+    padding: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.btn {
+    padding: 8px 15px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Items List Styling */
+#items-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.list-group-item {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Remove border from the last item in the list */
+.list-group-item:last-child {
+    border-bottom: none;
+}
